@@ -1,21 +1,32 @@
-import React from "react";
+import React from 'react'
 
 import logo from '../assets/img/logo-3.png'
 
 const Navbarx = () => {
   const nav = document.querySelector('nav');
 window.addEventListener('scroll', function() {
-  if (window.pageYOffset > 100) {
+  if (window.scrollY >= 100) {
     nav.classList.add('bg-dark', 'shadow',);
   } else {
     nav.classList.remove('bg-dark', 'shadow');
   }
 });
 
-    
+  /*
+  const navbar = document.querySelector('.navbar');
+
+window.addEventListener('scroll', () => {
+  if (window.scrollY >= 100) {
+    navbar.classList.add('active');
+  } else {
+    navbar.classList.remove('active');
+  }
+});
+
+  */  
 return (
-<div >
-<nav id="navbar-example2" className="container-fluid bg-light1 navbar navbar-expand-lg fixed-top px-4 mb-0">
+
+<nav id="navbar-example2"  className="container-fluid bg-light1 navbar navbar-expand-lg fixed-top px-4 mb-0 scroll" >
 
   <a className="navbar-brand" href="#"><img src={logo} className="d-block w-100" alt="Logo"/></a>
   <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
@@ -29,7 +40,7 @@ return (
       </li >
 
       <li className="nav-item">    
-        <a className="nav-link" href="#scrollspyHeading2">AboutUs</a>
+        <a className="nav-link" href="#scrollspyHeading2">About Us</a>
       </li>
       <li className="nav-item">   
         <a className="nav-link" href="#scrollspyHeading3">Solutions</a>
@@ -45,7 +56,7 @@ return (
   </div>
   
 </nav>
-</div>
+
 );
 };
 

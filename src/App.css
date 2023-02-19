@@ -63,8 +63,11 @@
 
 /* contact form*/
 .contact-form-container{
-  width: 60vw;
-  border: 1px solid orange;
+  width: 44vw;
+  font-size: 18px;
+  font-weight: bold;
+  color: #fff;
+  
 }
 
 @media(max-width: 768px){
@@ -73,3 +76,12 @@
   }
 }
 
+.contacto{
+  font-weight: bold;
+  font-size: 3rem;
+  color: orange;
+  
+}
+.form-label{
+  color: black;
+}
