@@ -2,7 +2,6 @@ import React from "react";
 import Carrusel from './Carrusel';
 import AboutUs from "./aboutus";
 import Solutions from "./solutions";
-import  Contact  from "./contact";
 import  Recent from "./recent";
 import Contacto from "./seccion"
 import SocialMediaBar from "./redes";
