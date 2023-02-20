@@ -5,7 +5,7 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 const Solutions = () => {
     return (
         <>
-            <div className="container">
+            <div className="container titulo-h3">
                 <h3 className="text-center text-uppercase pt-4 py-5">Services</h3>
             </div>
             <div className="container marketing">
@@ -16,7 +16,7 @@ const Solutions = () => {
           <title>Third Party Inspections</title>
           <rect width="100%" height="100%" fill="#ffc30f"/>
           
-  <FontAwesomeIcon icon={faClipboardList} size="1x" color="#000" border="true" fixedWidth="10px" />
+  <FontAwesomeIcon icon={faClipboardList} size="2x" color="#000"  />
 
         </svg>
         <h2>Third Party Inspections</h2>

@@ -6,7 +6,7 @@ const Recent = () => {
 return (
     <>
 <div className="container py-5">
-<h3 className="text-center text-uppercase pt-4 py-5">Recent Inspections</h3>
+<h3 className="text-center text-uppercase pt-4 py-5 titulo-h3">Recent Inspections</h3>
 </div>
 
 <div className="album py-5 bg-transparent">

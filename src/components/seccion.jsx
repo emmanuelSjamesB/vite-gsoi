@@ -17,7 +17,7 @@ const Contacto = () => {
 
   return (
     <div
-      className="container"
+      className="container-fluid"
       style={{
         backgroundImage: `url(${backgroundImage})`,
         backgroundSize: "cover",
@@ -29,11 +29,13 @@ const Contacto = () => {
         display: "flex",
         alignItems: "center",
         justifyContent: "center",
+        
       }}
       onMouseMove={handleMouseMove}
     >
-      <div className="contact-form-container text-muted shadow-sm rounded p-3 lh-2 container-fluid">
-        <h3 className="container-fluid text-center text-uppercase pt-4 pb-5  contacto">Contact Us</h3>
+      
+      <div className="contact-form-container text-muted shadow-sm rounded p-3 lh-2 ">
+        <h3 className="container-fluid text-center text-uppercase pt-4 pb-3 contacto">Contact Us</h3>
         <form action="">
         <div className="mb-3">
     <label htmlFor="name" className="form-label">Fullname</label>
@@ -62,7 +64,7 @@ const Contacto = () => {
     <input type="email" className="form-control" id="email" required/>
     <div id="emailHelp" className="form-text">we'll never share your email</div>
     <div className="d-grid">
-    <button tipe="submit" className="btn btn-primary">Submit</button>
+    <button tipe="submit" className="btn btn-warning">Submit</button>
     </div>
   </div>  
         </form>

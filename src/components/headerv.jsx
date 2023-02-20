@@ -1,4 +1,4 @@
-
+import React from "react";
 import video from '../assets/videos/video2.mp4';
 
 
