@@ -17,7 +17,8 @@ return (
           <div className="card shadow-sm  ">
           <img src={uno} className="d-block w-100" alt="1"/>
             <div className="card-body">
-              <p className="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+              <h2 className="text-uppercase">gsoi</h2>
+              <p className="card-text">Control de Pintura , España </p>
               <div className="d-flex justify-content-between align-items-center">              
                 
               </div>
@@ -29,7 +30,8 @@ return (
           <div className="card shadow-sm">
           <img src={dos} className="d-block w-100" alt="2"/>
             <div className="card-body">
-              <p className="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+            <h2 className="text-uppercase">gsoi</h2>
+              <p className="card-text">FAT de Subsea Tool Basket, Noruega </p>
               <div className="d-flex justify-content-between align-items-center">              
                 
               </div>
@@ -41,7 +43,8 @@ return (
           <div className="card shadow-sm">
           <img src={tres} className="d-block w-100" alt="3"/>
             <div className="card-body">
-              <p className="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+            <h2 className="text-uppercase">gsoi</h2>
+              <p className="card-text">FAT de Fire & Gas System, Noruega</p>
               <div className="d-flex justify-content-between align-items-center">              
                 
               </div>

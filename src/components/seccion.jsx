@@ -32,8 +32,8 @@ const Contacto = () => {
       }}
       onMouseMove={handleMouseMove}
     >
-      <div className="contact-form-container text-muted shadow-sm rounded p-3 lh-2">
-        <h3 className="text-center text-uppercase pt-4 pb-5  contacto">Contact Us</h3>
+      <div className="contact-form-container text-muted shadow-sm rounded p-3 lh-2 container-fluid">
+        <h3 className="container-fluid text-center text-uppercase pt-4 pb-5  contacto">Contact Us</h3>
         <form action="">
         <div className="mb-3">
     <label htmlFor="name" className="form-label">Fullname</label>

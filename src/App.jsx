@@ -1,15 +1,14 @@
 import React from "react";
 import './App.css';
-import Headerx from './components/headers';
-//import Navbarx from "./components/navbar";
 import Navbarq from "./components/navb";
+import Contenido from "./components/contenido"
 
 function App() {
   
   return (
     <> 
     <Navbarq />     
-      <Headerx />
+      <Contenido />
       
       </>
  

@@ -27,7 +27,7 @@ function Navbarq() {
       className={scrollNav ? 'navbar-scroll' : ''}
       style={{ backgroundColor: scrollNav ? '#174569' : 'transparent' }}
     >
-      <Container>
+      <Container fluid fixed-top >
         <Navbar.Brand href="#"><img src={logo} className="d-block w-100" alt="Logo"/></Navbar.Brand>
         <Navbar.Toggle aria-controls="navbarNav" data-bs-toggle="collapse" data-bs-target="#navbarNav" />
         <Navbar.Collapse id="navbarNav">
