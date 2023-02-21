@@ -12,42 +12,36 @@ const Solutions = () => {
                 <div className="row">
                    
                 <div className="col-lg-3 col-md-6">
-        <svg className="bd-placeholder-img rounded-circle" width="120" height="120" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Third Party Inspections" preserveAspectRatio="xMidYMid slice" focusable="false">
-          <title>Third Party Inspections</title>
+        <svg className="bd-placeholder-img rounded-circle" width="100" height="100" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Third Party Inspections" preserveAspectRatio="xMidYMid slice" focusable="false">
           <rect width="100%" height="100%" fill="#ffc30f"/>
-          
-  <FontAwesomeIcon icon={faClipboardList} size="2x" color="#000"  />
-
+             <FontAwesomeIcon icon={faClipboardList} size="2x" color="#000"  />
         </svg>
         <h2>Third Party Inspections</h2>
         <p>Our inspectors are ready for your assignment, short and long term, representing your interest making sure that your instructions are followed, reporting in detail and on time.</p>
       </div>
                     
                     <div className="col-lg-3 col-md-6">
-        <svg className="bd-placeholder-img rounded-circle" width="120" height="120" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Third Party Inspections" preserveAspectRatio="xMidYMid slice" focusable="false">
-          <title>Expediting</title>
-          <rect width="100%" height="100%" fill="#777"/>
-          <FontAwesomeIcon icon={faGlobe} size="3x" color="#fff" />
+                    <svg className="bd-placeholder-img rounded-circle" width="100" height="100" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Third Party Inspections" preserveAspectRatio="xMidYMid slice" focusable="false">
+                    <rect width="100%" height="100%" fill="#ffc30f"/>
+             <FontAwesomeIcon icon={faClipboardList} size="2x" color="#000"  />
         </svg>
         <h2>Expediting</h2>
         <p>The GSOI expeditors create a good relation with vendors, obtaining detailed information regarding the status of your project at different stages.</p>
       </div>
 
       <div className="col-lg-3 col-md-6">
-        <svg className="bd-placeholder-img rounded-circle" width="120" height="120" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Third Party Inspections" preserveAspectRatio="xMidYMid slice" focusable="false">
-          <title>Risk/Reliability Assessments</title>
-          <rect width="100%" height="100%" fill="#777"/>
-          <FontAwesomeIcon icon={faGlobe} size="3x" color="#fff" />
+      <svg className="bd-placeholder-img rounded-circle" width="100" height="100" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Third Party Inspections" preserveAspectRatio="xMidYMid slice" focusable="false">
+          <rect width="100%" height="100%" fill="#ffc30f"/>
+             <FontAwesomeIcon icon={faClipboardList} size="2x" color="#000"  />
         </svg>
         <h2>Risk/Reliability Assessments</h2>
         <p>GSOI provides custom made risk assessments including reliability assessments for electromechanical equipment, components and machinery. Supported by monitoring and follow up on site. .</p>
       </div>
 
       <div className="col-lg-3 col-md-6">
-        <svg className="bd-placeholder-img rounded-circle" width="120" height="120" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Third Party Inspections" preserveAspectRatio="xMidYMid slice" focusable="false">
-          <title>Production Monitoring</title>
-          <rect width="100%" height="100%" fill="#777"/>
-          <FontAwesomeIcon icon={faGlobe} size="3x" color="#fff" />
+      <svg className="bd-placeholder-img rounded-circle" width="100" height="100" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Third Party Inspections" preserveAspectRatio="xMidYMid slice" focusable="false">
+            <rect width="100%" height="100%" fill="#ffc30f"/>
+             <FontAwesomeIcon icon={faClipboardList} size="2x" color="#000"  />
         </svg>
         <h2>Production Monitoring</h2>
         <p>The GSOI inspectors witness and document the manufacturing process. You will receive a periodical reports on demand, regarding quality and completion status or your material, giving you the overview of the entire process..</p>

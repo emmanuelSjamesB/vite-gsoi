@@ -1,6 +1,6 @@
 import React from "react";
 import about from '../assets/img/offer-pic.jpg';
-
+import { Link } from "react-scroll";
 const AboutUs = () => {
   return (
     <div>
@@ -26,18 +26,22 @@ const AboutUs = () => {
               Surveillance, Expediting to Offshore survey.
             </p>
             <div className="d-grid gap-2 d-md-flex justify-content-md-start">
-              <button
-                type="button"
-                className="btn btn-outline-warning btn-lg px-4 me-md-2"
-              >
-                Contact
-              </button>
-              <button
-                type="button"
-                className="btn btn-outline-warning btn-lg px-4"
-              >
-                Solutions
-              </button>
+            <Link
+        to="scrollspyHeading4"
+        smooth={true}
+        duration={500}
+        className="btn btn-outline-warning btn-lg px-4 me-md-2"
+      >
+        Contact Us
+      </Link>
+      <Link
+        to="scrollspyHeading3"
+        smooth={true}
+        duration={500}
+        className="btn btn-outline-warning btn-lg px-4 me-md-2"
+      >
+        Solutions
+      </Link>
             </div>
           </div>
         </div>
