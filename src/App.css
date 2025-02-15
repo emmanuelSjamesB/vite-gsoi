@@ -112,3 +112,24 @@ video {
   
   color: rgb(99, 124, 172);
 }
+/* Estilos para las tarjetas */
+.card {
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.card:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+}
+
+/* Estilos para los iconos */
+.icon-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100px;
+  height: 100px;
+  margin: 0 auto;
+  background-color: #fff3cd; /* Fondo amarillo claro */
+  border-radius: 50%;
+}
