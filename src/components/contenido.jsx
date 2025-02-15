@@ -16,7 +16,6 @@ return (
   
   <div id="scrollspyHeading2"><AboutUs /></div>
   
-  
   <div id="scrollspyHeading3"><Solutions /></div>
   
   <div id="scrollspyHeading4"><Contacto /></div>
